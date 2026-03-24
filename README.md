@@ -9,6 +9,10 @@ The repository includes:
 - prepared data files for local runs
 - simple scripts for prediction and Optuna-based hyperparameter search
 
+## 💊 Why It Matters
+
+Pharmaceutical cocrystals are an important strategy for improving the solubility, stability, and bioavailability of drug compounds. Reliable prediction of cocrystal formation can help speed up drug development and reduce the cost of experimental screening.
+
 ## 📁 Structure
 
 ```text

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+train_features_cache.pkl
+lgbm_params_generated.py
+submission.csv

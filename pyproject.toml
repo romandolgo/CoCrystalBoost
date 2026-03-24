@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cocrystalboost"
+version = "0.1.0"
+description = "Cocrystallization prediction with LightGBM and RDKit features"
+requires-python = ">=3.10"
+dependencies = [
+    "lightgbm",
+    "numpy",
+    "optuna",
+    "pandas",
+    "rdkit",
+    "scikit-learn",
+]
+
+[tool.setuptools]
+packages = ["cocrystalboost"]

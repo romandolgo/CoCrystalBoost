@@ -31,12 +31,12 @@ CoCrystalBoost/
 - pip
 - RDKit
 
-Dependencies are defined in [pyproject.toml](/home/skihnn/Projects/CoCrystalBoost/pyproject.toml).
+Dependencies are defined in [pyproject.toml](./pyproject.toml).
 
 ## 🚀 Installation
 
 ```bash
-git clone <https://github.com/romandolgo/CoCrystalBoost.git>
+git clone https://github.com/romandolgo/CoCrystalBoost.git
 cd CoCrystalBoost
 python -m venv .venv
 source .venv/bin/activate
@@ -79,7 +79,7 @@ or:
 python scripts/tune_lgbm.py
 ```
 
-This creates `lgbm_params_generated.py`. If that file exists, the main pipeline uses it automatically. Otherwise, default parameters from [settings.py](/home/skihnn/Projects/CoCrystalBoost/cocrystalboost/settings.py) are used.
+This creates `lgbm_params_generated.py`. If that file exists, the main pipeline uses it automatically. Otherwise, default parameters from [settings.py](./cocrystalboost/settings.py) are used.
 
 ## 📊 Data
 
@@ -94,10 +94,10 @@ Expected columns:
 
 ## 🧩 Main Modules
 
-- [cocrystalboost/main.py](/home/skihnn/Projects/CoCrystalBoost/cocrystalboost/main.py) — prediction pipeline
-- [cocrystalboost/tuning.py](/home/skihnn/Projects/CoCrystalBoost/cocrystalboost/tuning.py) — Optuna tuning
-- [cocrystalboost/features.py](/home/skihnn/Projects/CoCrystalBoost/cocrystalboost/features.py) — feature engineering
-- [cocrystalboost/modeling.py](/home/skihnn/Projects/CoCrystalBoost/cocrystalboost/modeling.py) — training and threshold selection
+- [cocrystalboost/main.py](./cocrystalboost/main.py) — prediction pipeline
+- [cocrystalboost/tuning.py](./cocrystalboost/tuning.py) — Optuna tuning
+- [cocrystalboost/features.py](./cocrystalboost/features.py) — feature engineering
+- [cocrystalboost/modeling.py](./cocrystalboost/modeling.py) — training and threshold selection
 
 ## 📝 Notes
 

@@ -36,7 +36,7 @@ Dependencies are defined in [pyproject.toml](/home/skihnn/Projects/CoCrystalBoos
 ## 🚀 Installation
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/romandolgo/CoCrystalBoost.git>
 cd CoCrystalBoost
 python -m venv .venv
 source .venv/bin/activate
